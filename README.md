@@ -37,9 +37,8 @@ Compile both programs using GCC:
 ```bash
 gcc sender.c -o sender
 gcc receiver.c -o receiver
-//for semaphore
-gcc semaphore.c -o sem -pthread
 ---
+
 # Linux IPC – Semaphore Example
 
 This repository demonstrates the use of **System V Semaphores** in Linux for
@@ -75,15 +74,3 @@ critical section at a time**, while other processes wait.
 ## Use Case
 This example simulates multiple processes trying to access a shared resource,
 ensuring safe and synchronized execution.
-
-
-
-
-
-
-
-
-
-
-
-# Linux I
