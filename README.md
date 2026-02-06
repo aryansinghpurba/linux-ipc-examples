@@ -39,19 +39,11 @@ Compile both programs using GCC:
 ```bash
 gcc sender.c -o sender
 gcc receiver.c -o receiver
-Run Instructions
-
-Open two terminals.
-
-Terminal 1 (Receiver):
 
 ./receiver
-
-
-Terminal 2 (Sender):
-
 ./sender
 
+```
 Linux IPC – Semaphore Example
 
 This example demonstrates the use of System V Semaphores for
@@ -101,15 +93,5 @@ Use Case
 This example simulates multiple processes trying to access a shared resource,
 ensuring safe and synchronized execution.
 
-Cleanup
-
-To remove any leftover IPC objects:
-
-ipcs
-ipcrm -q <queue_id>
-ipcrm -s <semaphore_id>
 
 
-
----
-Is this conversation helpful so far?
